@@ -1,0 +1,438 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*::selection {
+  background-color: lightblue;
+  color: rgb(199, 63, 101);
+}
+button {
+  transition: background-color ease-in 0.4s;
+}
+button:hover {
+  background-color: rgb(199, 63, 101);
+}
+article.meal-article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+.title1 {
+  margin-bottom: 10%;
+}
+
+.meals article img {
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10%;
+}
+.meals p {
+  line-height: 2;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.one li {
+  padding: 2%;
+}
+button.btn {
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 3%;
+  padding: 5%;
+  width: 70%;
+  background-color: beige;
+  transition: background-color ease-in 0.4s;
+}
+.home-nav {
+  float: left;
+}
+.meals article h3 {
+  text-align: center;
+}
+.meals article h2 {
+margin-bottom: 1%;
+}
+
+h4.ingredients {
+  margin-top: 2%;
+  text-align: center;
+  
+}
+.ingredients-div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+:root {
+  background-color: beige;
+}
+.home-return-box {
+  margin: auto;
+  padding: 2%;
+} 
+.home-nav {
+  color: black;
+  border: 1px solid black;
+  margin: 1%;
+  margin-top: 70%;
+  border-radius: 20px;
+  padding: 5%;
+  transition: background-color ease-out 0.4s;
+}
+.home-nav:hover {
+  color: black;
+  border: 1px solid black;
+  margin: 1%;
+  margin-top: 70%;
+  background-color: rgb(199, 63, 101);
+  border-radius: 20px;
+  padding: 5%;
+}
+button.btn:hover {
+  background-color: rgb(199, 63, 101);
+  color: beige;
+}
+.meal-section-1 {
+  width: fit-content;
+  text-align: center;
+  background-color: beige;
+  margin: auto;
+  margin-top: 2%;
+}
+.search-container > form > button {
+  margin-left: 1%;
+  padding: 1%;
+  transition: background-color linear 0.3s;
+}
+.search-container > form > button:hover {
+  background-color: rgb(199, 63, 101);
+  margin-left: 1%;
+  padding: 1%;
+}
+.search-container > form > input {
+  padding: 1%;
+}
+.meal-section-2 {
+width: 50%;
+margin: auto;
+}
+.meal-section-3 {
+width: 60%;
+position: relative;
+margin: auto;
+}
+.login-container {
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+.signup-container {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  margin-top: 5%;
+}
+.input-field {
+  margin-top: 10%;
+}
+.input-field > label {
+  display: block;
+}
+.input-field > input {
+  width: 400px;
+}
+#login-submit-button {
+  width: 40%;
+  aspect-ratio: 4;
+  font-size: 20px;
+  margin-top: 5%;
+  transition: background-color ease-in 0.4s;
+}
+#login-submit-button:hover {
+  background-color: rgb(199, 63, 101);
+  color: beige;
+}
+.button2 > p {
+  margin-top: 5%;
+}
+.back-to-signin {
+  margin-top: 10%;
+}
+#sign-up-button {
+  padding: 1%;
+  color: black;
+  font-size: 16px;
+  transition: color ease-out 0.2s;
+}
+#sign-up-button:hover {
+  padding: 1%;
+  color: rgb(199, 63, 101);
+  font-size: 16px;
+}
+.input-buttons {
+  display: block;
+  margin-top: 5%;
+}
+.button1 {
+  width: 100%;
+}
+.button2 {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  border-bottom: 4px solid rgb(199, 63, 101);
+  background-color: beige;
+}
+.logo-nav-img {
+  width: 250px;
+}
+.login-button {
+  margin-top: 5%;
+  text-decoration: none;
+  color: black;
+  transition: color ease-out 0.3s;
+}
+.login-button:hover {
+  color: rgb(199, 63, 101);
+}
+.navbar > ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  padding: 2%;
+  margin-top: 3%;
+}
+.navbar > ul > li {
+  list-style: none;
+  margin: 1% 5%;
+}
+.navbar > ul > li > .nav-link {
+  color: black;
+  text-decoration: none;
+  background-color: beige;
+  border: none;
+  font-size: x-large;
+  transition: color ease-out 0.2s;
+}
+.navbar > ul > li > .nav-link:hover {
+  color: rgb(199, 63, 101);
+}
+.navbar > .home-nav-link {
+  border-radius: 50%;
+}
+.category-listings {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  transition: background-color ease-out 0.3s;
+}
+.category-listings:hover {
+  background-color: rgb(199, 63, 101);
+}
+.category-listings > h4 {
+  margin: 2%;
+  margin-top: 5%;
+}
+.category-listings > h2 {
+  margin: 2%;
+  margin-top: 5%;
+}
+.category-listings img {
+  width: 8%;
+  aspect-ratio: 1;
+  margin: 1%;
+}
+.category {
+  width: fit-content;
+}
+footer {
+  display: block;
+  justify-content: center;
+  border-top: 2px solid rgb(199, 63, 101);
+  text-align: center;
+  margin-top: 2%;
+  padding-top: 1%;
+}
+.main-landing-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.landing-container1 {
+  margin: 1%
+}
+.landing-container1 > p {
+  padding: 2%;
+  line-height: 4;
+}
+.landing-container2 {
+  margin: 1%;
+}
+.landing-container2 > ul > li {
+  padding: 4%;
+}
+.beef-category {
+  display: inline-flex;
+  width: fit-content;
+  margin: 4%;
+}
+.beef-card-link {
+  text-decoration: none;
+  color: black;
+}
+.beef-card {
+width: 300px;
+height: 400px;
+transition: box-shadow ease-out 0.3s;
+}
+.beef-card:hover {
+  text-decoration: none;
+  cursor: copy;
+  box-shadow: rgb(199, 63, 101) 0px 5px 19px 0px;
+}
+.beef-card > h2 {
+  text-align: center;
+  height: 20%
+}
+.beef-card > h4 {
+  text-align: center;
+  padding-top: 10%;
+}
+.category-links {
+  text-decoration: none;
+  color: black;
+}
+.favorites {
+  text-align: center;
+}
+.search-container {
+  padding-top: 1%;
+  text-align: center;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+}
+.feedback textarea {
+  text-align: center;
+  width: 30%;
+  height: 5rem;
+  margin: auto;
+  margin-top: 1%;
+}
+.feedback button {
+  margin: auto;
+  margin-top: 1%;
+  padding: 0.5%;
+}
+.logger-button {
+  margin: auto;
+  font-size: xx-large;
+  background-color: beige;
+  border: none;
+  transition: color linear 0.2s;
+}
+.logger-button:hover {
+  background-color: beige;
+  color: rgb(199, 63, 101);
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .landing-container1 p{
+    line-height: 2;
+  }
+  .meals p {
+    padding: 0;
+    margin: 0;
+  }
+  .home-nav {
+    color: black;
+    border: 1px solid black;
+    margin: 1%;
+    border-radius: 20px;
+    padding: 5%;
+    transition: background-color ease-out 0.4s;
+  }
+  .home-nav:hover {
+    color: black;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: rgb(199, 63, 101);
+    border-radius: 20px;
+    padding: 5%;
+  }
+  .logo-nav-img {
+    width: 100px;
+  }
+  .beef-card {
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+  .beef-card h4 {
+    padding-top: 0;
+  }
+  .navbar h2 {
+    font-size: large;
+  }
+  .category-img {
+    height: 80px;
+  }
+  .navbar > ul > li > .nav-link {
+    font-size: small;
+  }
+  .navbar > ul > li {
+    margin: 2%;
+    padding: 1%;
+  }
+  .meal-container {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .meals p {
+    padding: 0;
+    margin: 0;
+  }
+  .home-nav {
+    color: black;
+    border: 1px solid black;
+    margin: 1%;
+    border-radius: 20px;
+    padding: 5%;
+    transition: background-color ease-out 0.4s;
+  }
+  .home-nav:hover {
+    color: black;
+    border: 1px solid black;
+    margin: 1%;
+    background-color: rgb(199, 63, 101);
+    border-radius: 20px;
+    padding: 5%;
+  }
+  .logo-nav-img {
+    width: 100px;
+  }
+  .beef-card {
+    margin-top: 25%;
+    margin-left: 25%;
+  }
+  .beef-card h4 {
+    padding-top: 0;
+  }
+  .navbar h2 {
+    font-size: large;
+  }
+  .category-img {
+    height: 80px;
+  }
+  .navbar > ul > li > .nav-link {
+    font-size: x-small;
+  }
+  .meal-container {
+    padding: 0;
+    margin: 0;
+  }
+}
