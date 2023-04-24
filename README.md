@@ -5,4 +5,6 @@
 
 #### The idea originally started as a project to create a random meal suggestion. As seen in my meal repository, my wife and I are very indecesive. I created this random meal suggestion app in efforts to combat our indecesiveness; this way, whenever we don't know what to eat, we can just grab a suggestion from this app. However, after browsing for a new project to dive into, I decided to expand on my previous work with this. 
 
+#### It has been very interesting diving into the usage of API's (TheMealDB API was used for this project). Learning how to iterate through the data obtained from API Fetch proved to be difficult, but I always love a good challenge. Another big challenge endured throughout this project was deciding how to handle user authentication; I ended up going with Auth0 for my authentication purposes.
+
 #### In the future, I will be adding more things like stated before, such as meals recommended based off preferred meal styles and meal favorites history. I am looking forward to the end result.
