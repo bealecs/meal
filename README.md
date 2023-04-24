@@ -1,4 +1,4 @@
-# meal-page
+# Clif's Catalog 🍎🍔
 ### A web app for finding an optimal meal suggestion for you based off of personal preferences, previous favorites, or a randomly generated suggestion.
 
 #### Thank you for checking out my repository for my latest project. I have recently started throwing together this web app as an extension to a previous project. I plan to have full spectrum usage with this web app, from the front-end to the back-end: including account creation + database storing meal favorites. 
